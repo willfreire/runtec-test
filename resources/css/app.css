@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #1F2937 !important;
+    color: white !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice:hover {
+    background-color: #374151 !important;
+}
